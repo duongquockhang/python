@@ -1,0 +1,10 @@
+a = int(input('a='))
+b = int(input('b='))
+
+if (a==0):
+    if(b==0):
+        print('phuong trinh vo so nghiem')
+    else:
+        print('phuong trinh vo nghiem')
+else:
+    print('phuong trinh co nghiem x=-b/a0')
